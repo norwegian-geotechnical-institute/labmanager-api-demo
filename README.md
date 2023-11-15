@@ -16,6 +16,12 @@
    .venv\Scripts\activate.bat
    ```
 
+   Or:
+
+   ```
+   .venv\Scripts\activate.ps1
+   ```
+
    Linux/macOS:
 
    ```bash
