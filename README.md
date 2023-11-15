@@ -2,19 +2,25 @@
 
 ## Setup
 
-1. Install the required packages
+1. Create a virtual environment
+
+   ```bash
+   python -m venv .venv
+   ```
+
+2. Install the required packages
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Copy and rename the environment file:
+3. Copy and rename the environment file:
 
    ```bash
    cp .env.example .env
    ```
 
-3. Edit the `.env` file and add your personal access token
+4. Edit the `.env` file and add your personal access token
 
    Get the access token by clicking the button in...
 
@@ -22,7 +28,7 @@
 
    DO NOT SHARE YOUR ACCESS TOKEN WITH ANYONE
 
-4. Run the script
+5. Run the script
 
    ```bash
     python example.py
