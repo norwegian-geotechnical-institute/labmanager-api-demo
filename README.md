@@ -8,19 +8,33 @@
    python -m venv .venv
    ```
 
-2. Install the required packages
+2. Activate the virtual environment
+
+   Windows:
+
+   ```bash
+   .venv\Scripts\activate.bat
+   ```
+
+   Linux/macOS:
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. Install the required packages
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Copy and rename the environment file:
+4. Copy and rename the environment file:
 
    ```bash
    cp .env.example .env
    ```
 
-4. Edit the `.env` file and add your personal access token
+5. Edit the `.env` file and add your personal access token
 
    Get the access token by clicking the button in...
 
@@ -28,7 +42,7 @@
 
    DO NOT SHARE YOUR ACCESS TOKEN WITH ANYONE
 
-5. Run the script
+6. Run the script
 
    ```bash
     python example.py
